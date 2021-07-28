@@ -25,7 +25,7 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack(spacing: 30) {
                 VStack {
-                    Text("Choose the flag: ")
+                    Text("Choose the flag!: ")
                         .foregroundColor(.white)
                         .font(.headline)
                     Text(countries[correctAnswer])
